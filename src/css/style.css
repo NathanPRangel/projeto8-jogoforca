@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.jogo {
+  display: flex;
+  height: 440px;
+  position: relative;
+}
+
+.botao-e-palavra{
+  width: 50%;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.forcaImg {
+  width: 400px;
+  height: 400px;
+  top: 30px;
+  left: 50px;
+  position: absolute;
+}
+
+.jogo button {
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #27AE60;
+  color: #ffffff;
+  border-radius: 8px;
+  border-color: #27AE60;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.jogo ul {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.inicio-placar{
+  display: flex;
+  justify-content: space-around;
+}
+.imgInicio{
+  height: 300px;
+  position:absolute;
+  left:500px;
+  top:120px;
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:2px solid #7AA7C7;
+  border-radius: 50%;
+  width:130px;
+  height: 120px;
+  background-color: #E1ECF4;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 7px;
+}
+.timer{
+  margin-bottom: 7px;
+}
+.erros{
+  color:red;
+  margin-top: 5px;
+}
+.acertos{
+  color:green;
+  margin-top: 5px;
+}
+
+.letras-palavra-jogo {
+  width: 50px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.palavra-errada {
+  color: red;
+}
+
+.palavra-certa {
+  color: green;
+}
+
+.letras {
+  display: flex;
+  justify-content: center;
+}
+
+.letras div {
+  margin-top: 10px;
+  width: 676px;
+}
+
+.letras-botao {
+  width: 40px;
+  height: 40px;
+  background: #E1ECF4;
+  border: 1px solid #7AA7C7;
+  border-radius: 3px;
+  color: #39739D;
+  margin-right: 12px;
+  margin-bottom: 11px;
+}
+
+.botao-desabilitado {
+  background-color: #798A9F;
+  ;
+}
+
+.letras-botao:hover {
+  background-color: #7AA7C7;
+}
+
+.chute {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.chute span {
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 10px;
+
+}
+
+.chute input {
+  width: 353px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  margin-right: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.chute button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3C76A1;
+  width: 100px;
+  height: 40px;
+  background: #E1ECF4;
+  border: 1px solid #7AA7C7;
+  border-radius: 3px;
+}
+
+.chute button:hover {
+  background-color: #7AA7C7;
+}
+
+.escondido {
+  display: none;
+}
